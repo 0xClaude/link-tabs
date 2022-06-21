@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 10% 40%;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: none;
+}
+
+span {
+    padding: 2%;
+}
+
+span.active {
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+span.inactive {
+    border-style: none;
+}
+
+span.inactive:hover {
+    border-bottom: 3px solid gray;
+}
+
+div.links {
+    margin-top: 20px;
+}
+
+span.linklist-2, span.linklist-3, span.linklist-4 {
+    display: none;
+}
+
+span.show {
+    display: initial;
+}
+
+span.hide {
+    display: none;
+}
